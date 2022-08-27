@@ -1,0 +1,394 @@
+
+@import url('http://fonts.cdnfonts.com/css/montserrat');
+
+body{
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.nav-1{
+width: 50%;
+}
+.nav-2{
+    width: 50%;
+    }
+    .icon{
+        width: 100px;
+    }
+  .flex6{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  }  
+  .b1{
+    width: 50%;
+
+  }
+  .b2{
+    width: 50%;
+  }
+.flex{
+    display: flex;
+    
+}
+.a{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+   margin-top: 30px;
+
+}
+a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+}
+.box1{
+    width: 50%;
+    height: 600px;
+    background-color:#181818;
+    position: relative;
+    margin-top: 40px;
+}
+.box2{
+    width: 50%;
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    margin-top: 40px;
+   
+}
+.grid{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+h3{
+    color: white;
+}
+p{
+    color: white;
+}
+.grid1{
+   border-radius: 2px;
+   background-color: #1E1E1E;
+   padding: 10px;
+    
+}
+.grid12{
+   border-radius: 2px;
+   background-color: #1E1E1E;
+   padding: 5px;
+   width: 190px;
+   margin-top: 30px;
+   margin-left: 30px;
+   
+    
+}
+.flex5{
+    display: flex;
+    margin-top: 40px;
+
+}
+.flex1{
+    width: 30%;
+    margin-top: 30px;
+}
+.grid3{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: auto;
+    gap: 20px;
+
+}
+.flex-2{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    
+}
+.flex-22{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    background-color: #181818;
+    border: 1px solid #181818;
+    margin-top: 30px;
+    
+}
+.flex-2-1{
+    width: 60%;
+    margin: 30px;
+}
+.flex-2-2{
+    width: 30%;
+    margin: 30px;
+    text-align: end;
+}
+.btn{
+    margin-top: 20px;
+}
+button{
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.grid5{
+    width: 70%;
+    margin: auto;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    display: grid;
+    gap: 20px;
+}
+img{
+    width: 400px;
+}
+.img-div{
+    background-color: #181818;
+    border: 1px solid #181818;
+    text-align: center;
+    padding: 10px;
+
+}
+@media only screen and (max-width: 600px) {
+     .flex{
+        width: 90%;
+        flex-direction: column;
+     }
+    .grid{
+        grid-template-columns: 40% 40%;
+        grid-template-rows: auto;
+        gap: 20px;
+    }
+    .box1{
+        visibility: hidden;
+        
+    }
+    .box2{
+    width: 90%;
+    /* height: auto; */
+    /* position: relative; */
+
+    
+}
+.flex5{
+    display: flex;
+    flex-direction: column;
+    
+}
+.flex1{
+    width: 90%;
+    margin-top: 30px;
+}
+.grid3{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: auto;
+    gap: 20px;
+
+}
+.grid12{
+   border-radius: 2px;
+   background-color: #1E1E1E;
+   padding: 5px;
+   width: 100px;
+   margin-top: 30px;
+   margin-left: 0;
+   margin: 10px;
+   
+    
+}
+.flex-2{
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+}
+.flex-22{
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+  
+    
+  
+    
+}
+.flex-2-1{
+    width: 90%;
+    margin: 10px;
+    
+    
+}
+.flex-2-2{
+    width: 90%;
+    margin: 10px;
+    text-align: start;
+}
+.btn{
+    margin-top: 0;
+}
+.grid5{
+    width: 90%;
+    margin: auto;
+    grid-template-columns: 90%;
+    grid-template-rows: auto;
+    display: grid;
+    
+}
+img{
+    width: 200px;
+}
+.img-div{
+    background-color: #181818;
+    border: 1px solid #181818;
+    text-align: center;
+    padding: 10px;
+
+}
+.nav-div{
+    display: flex;
+     
+    width: 90%;
+    margin: auto;
+}
+.nav-1{
+width: 90%;
+}
+.nav-2{
+   visibility: hidden;
+    }
+  
+  .flex6{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  flex-direction: column;
+ 
+  }  
+  .b1{
+    width: 90%;
+
+  }
+  .b2{
+    width: 90%;
+  }
+.flex{
+    display: flex;
+    
+}
+.a{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+   margin-top: 30px;
+
+}
+
+
+
+}
+@media only screen and (max-width: 800px){
+    .grid{
+        grid-template-columns: 40% 40%;
+        grid-template-rows: auto;
+        gap: 20px;
+    }
+    .box1{
+        visibility: hidden;
+        height: auto;
+    }
+    .box2{
+    width: 90%;
+    height: auto;
+    position: relative;
+
+    
+}
+.flex5{
+    display: flex;
+    flex-direction: column;
+    
+}
+.flex1{
+    width: 90%;
+    margin-top: 30px;
+}
+.grid3{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: auto;
+    gap: 20px;
+
+}
+.grid12{
+   border-radius: 2px;
+   background-color: #1E1E1E;
+   padding: 5px;
+   width: 100px;
+   margin-top: 30px;
+   margin-left: 0;
+   margin: 10px;
+   
+    
+}
+.flex-22{
+    width: 65%;
+    margin: auto;
+    flex-direction: column;
+  
+    
+  
+    
+}
+.flex-2-1{
+    width: 90%;
+    margin: 10px;
+    
+    
+}
+.flex-2-2{
+    width: 90%;
+    margin: 10px;
+    text-align: start;
+}
+    .grid5{
+    width: 90%;
+    margin: auto;
+    grid-template-columns: 90%;
+    grid-template-rows: auto;
+    display: grid;
+    
+}
+img{
+    width: 200px;
+}
+.img-div{
+    background-color: #181818;
+    border: 1px solid #181818;
+    text-align: center;
+    padding: 10px;
+
+}
+.flex{
+        width: 90%;
+        flex-direction: column;
+     }
+     .nav-2{
+        visibility: hidden;
+         }
+}
